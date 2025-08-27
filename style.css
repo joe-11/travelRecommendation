@@ -246,13 +246,19 @@ nav {
 }
 
 .contact-header h1 {
-    font-size: 36px;
+    font-size: 64px;
+    padding-left: 300px;
+    padding-top: 100px;
+}
+
+.contact-header p {
+    padding-left: 300px;
 }
 
 .contact-form {
     margin-top: 50px;
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 30px;
     border-radius: 10px;
     width: 50%;
 }
@@ -262,7 +268,7 @@ nav {
     margin-top: 10px;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form input {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -270,6 +276,17 @@ nav {
     border: 1px solid white;
     background: transparent;
     color: white;
+}
+
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    height: 200px;
 }
 
 .contact-form button {
@@ -280,6 +297,7 @@ nav {
     border-radius: 5px;
     margin-top: 10px;
     cursor: pointer;
+    width: 100%;
 }
 
 #results {
