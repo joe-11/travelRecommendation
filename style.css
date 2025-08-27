@@ -125,12 +125,13 @@ nav {
     transition: color 0.3s;
 }
 
-.btn_BookNow{
+.btn_BookNowDiv{
+    position: fixed;
     padding-left: 100px;
-    padding-top: 1000px;
+    top: 60%;
 }
 
-.btn_BookNow.button{
+.btn_BookNow{
     font-size: 15px;
     font-weight: bold;
     color: white;
@@ -189,6 +190,7 @@ nav {
 
 .team-container {
     margin-top: 100px;
+    margin-left: 100px;
     display: flex;
 }
 
@@ -198,7 +200,6 @@ nav {
 }
 
 .team-members {
-    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 10px;
     display: inline-block;
     justify-content: space-between;
@@ -206,15 +207,15 @@ nav {
     margin-right: 70px;
     height: 150px;
     width: 100%;
+    text-align: left;
 }
 
 .team-member {
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 10px;
     border-radius: 10px;
-    width: 27.25%;
+    width: fit-content;
     margin: 20px;
-    text-align: center;
     display: inline-block;
 }
 
@@ -226,13 +227,14 @@ nav {
     font-size: 16px;
 }
 
-.designation {
-    border: 1px solid black;
-    background-color: white;
-    color: black;
+.role {
+    background-color: rgb(62, 62, 172);
+    color: white;
     padding: 5px;
     border-radius: 5px;
     margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .contact-content {
