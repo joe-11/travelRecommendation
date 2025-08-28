@@ -41,9 +41,16 @@ function search(){
         displayResults(allResults);
     } else{
         resultsContainer.style.display = 'none';
-        resultsContainer.innerHTML = '<p>No result found</p>';
+        resultsContainer.innerHTML = '';
+        alert('No result found!');
     }    
     
+}
+
+function resetResults(){
+    document.getElementById('search-bar').value = '';
+    resultsContainer.style.display = 'none';
+    resultsContainer.innerHTML = '';
 }
 
 function displayResults(results){
@@ -53,6 +60,7 @@ function displayResults(results){
             <img src="${result.imageUrl}" alt="${result.name}"/>
             <h3>${result.name}</h3>
             <p>${result.description}</p>
+            <button>Visit</button>
         </div>`; 
         resultsContainer.innerHTML += resultHTML;
     });
