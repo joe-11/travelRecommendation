@@ -327,15 +327,15 @@ nav {
     margin: 5px;
     text-align: left;
     padding: 15px;
-    border-radius: 10px;  /* Rounded corners for the card */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Soft shadow around cards */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
     background-color: white;
 }
 
 .city-card:hover {
-    transform: translateY(-5px); /* Slight lift effect on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);  /* Stronger shadow on hover */
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
 }
 
 .city-card img {
